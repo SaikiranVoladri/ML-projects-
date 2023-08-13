@@ -84,7 +84,7 @@ print("[INFO] starting video stream...")
 vs = VideoStream(src=0, backend=cv2.CAP_DSHOW).start()
 
 # loop over the frames from the video stream
-# loop over the frames from the video stream
+# loop over the frames from the video streama
 while True:
     # grab the frame from the threaded video stream and resize it
     # to have a maximum width of 400 pixels
